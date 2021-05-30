@@ -1,5 +1,9 @@
 # 脚本说明
-1、不支持Centos\n2、只带防Nmap扫端口规则\n3、默认全端口开放，不会影响Fullcone NAT
+1、不支持Centos
+
+2、只带防Nmap扫端口规则
+
+3、默认全端口开放，不会影响Fullcone NAT
 
 # 用法
 以Root权限运行以下脚本即可
