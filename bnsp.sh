@@ -4,8 +4,8 @@ if [ $(whoami) != "root" ];then
 	exit 1;
 fi
 
-if [ `grep -c "Ubuntu" /etc/issue` -ne '0' ];then
-    if [ `grep -c "Debian" /etc/issue` -ne '0' ];then
+if [ `grep -c "Ubuntu" /etc/issue` -eq '0' ];then
+    if [ `grep -c "Debian" /etc/issue` -eq '0' ];then
     echo "----------此脚本不支持此系统！----------"
 	exit 1;
     fi
